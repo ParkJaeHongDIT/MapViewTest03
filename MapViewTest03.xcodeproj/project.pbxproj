@@ -12,6 +12,7 @@
 		4E38620923349732003BF884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E38620723349732003BF884 /* Main.storyboard */; };
 		4E38620B23349733003BF884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E38620A23349733003BF884 /* Assets.xcassets */; };
 		4E38620E23349733003BF884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E38620C23349733003BF884 /* LaunchScreen.storyboard */; };
+		4E3862172334973B003BF884 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3862162334973B003BF884 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E38620A23349733003BF884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E38620D23349733003BF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E38620F23349733003BF884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3862162334973B003BF884 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3862172334973B003BF884 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				4E38620223349732003BF884 /* MapViewTest03 */,
 				4E38620123349732003BF884 /* Products */,
+				4E3862152334973A003BF884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				4E38620F23349733003BF884 /* Info.plist */,
 			);
 			path = MapViewTest03;
+			sourceTree = "<group>";
+		};
+		4E3862152334973A003BF884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E3862162334973B003BF884 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapViewTest03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DIT.MapViewTest03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapViewTest03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DIT.MapViewTest03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

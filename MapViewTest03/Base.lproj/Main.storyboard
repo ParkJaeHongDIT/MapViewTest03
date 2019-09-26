@@ -27,17 +27,17 @@
                                 <items>
                                     <barButtonItem title="standard" id="6Dc-GK-Vuy">
                                         <connections>
-                                            <action selector="satadardAction:" destination="BYZ-38-t0r" id="z6e-5e-CAA"/>
+                                            <action selector="standardTypeButton:" destination="BYZ-38-t0r" id="XkQ-Md-2VU"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem title="satellite" id="e2g-YU-kHa">
                                         <connections>
-                                            <action selector="satelliteAction:" destination="BYZ-38-t0r" id="h3g-Zf-EBX"/>
+                                            <action selector="satelliteTypeButton:" destination="BYZ-38-t0r" id="SCo-BD-qJO"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem title="hybrid" id="XLq-T4-DtU">
                                         <connections>
-                                            <action selector="hybridAction:" destination="BYZ-38-t0r" id="2Ur-H0-fSS"/>
+                                            <action selector="hybridTypeButton:" destination="BYZ-38-t0r" id="Ri6-Ng-dcr"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
